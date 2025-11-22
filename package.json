@@ -1,7 +1,7 @@
 {
   "name": "redux-todo-app",
   "private": true,
-  "homepage": "https://tahasyed243.github.io/To-Do-App-with-React-Redux-STK",
+  "homepage": "https://tahasyed243.github.io/To-Do-App-with-React-Redux-STK/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

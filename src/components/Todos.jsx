@@ -72,8 +72,8 @@ export const Todos = () => {
                             {isEditing === todo.id ? (
                                 <button
                                     onClick={() => handleSaveClick(todo.id)}
-                                    className="w-14 h-10 rounded-lg text-sm m-2 items-center
-                                    bg-green-500 hover:bg-green-700 shrink-0 duration-500"
+                                    className="inline-flex w-14 h-10 rounded-lg text-sm m-2 items-center
+                                    bg-green-500 hover:bg-green-700 shrink-0 duration-500 shrink-0"
                                 >
                                     💾
                                 </button>
