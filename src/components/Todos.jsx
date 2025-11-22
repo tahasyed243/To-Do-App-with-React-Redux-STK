@@ -63,7 +63,7 @@ export const Todos = () => {
                         <div className='flex items-center gap-2'>
                             <button
                                 onClick={() => dispatch(removeTodo(todo.id))}
-                                className="w-14 h-10 rounded-lg m-2 items-center duration-500
+                                className="inline-flex w-14 h-10 rounded-lg m-2 items-center duration-500
                             text-sm border border-black/10 bg-red-500 hover:bg-red-700 shrink-0"
                             >
                                 X
@@ -73,7 +73,7 @@ export const Todos = () => {
                                 <button
                                     onClick={() => handleSaveClick(todo.id)}
                                     className="inline-flex w-14 h-10 rounded-lg text-sm m-2 items-center
-                                    bg-green-500 hover:bg-green-700 shrink-0 duration-500 shrink-0"
+                                    bg-green-500 hover:bg-green-700 duration-500 shrink-0"
                                 >
                                     💾
                                 </button>
