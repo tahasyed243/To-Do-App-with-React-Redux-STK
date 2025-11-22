@@ -8,4 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: "/To-Do-App-with-React-Redux-STK"
 })
